@@ -103,8 +103,7 @@ if ($_SESSION['RollNo']) {
                 <?php } else { ?>
                 <td><?php echo $fine ?></td>
                 <?php } ?>
-                <td><a  href="return_book_details.php?id=<?php echo $id; ?>& Mid=<?php echo $issued_by;?>&idate=<?php echo $issue_date?>&fine=<?php echo $fine?>" name="delete" id="delete" class="btn btn-primary btn-sm";" >Return</a></td>
-
+                <td><a  href="return_book_details.php?id=<?php echo $id; ?>& Mid=<?php echo $issued_by;?>&idate=<?php echo $issue_date?>&fine=<?php echo $fine?>" name="delete" id="delete" class="btn btn-primary btn-sm"; >Return</a></td>
             </tr>
             <?php $i++; }}?>
     </tbody>
