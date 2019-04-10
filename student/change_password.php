@@ -69,42 +69,6 @@ require('header.php');
     $m=$_SESSION['message'];
     echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = '$m' </script>";
     $_SESSION['message']='';
-/*if(isset($_POST['submit']))
-{
-    $no=$_SESSION['RollNo'];
-    $c=$_POST['inputHorizontalSuccess'];
-    $n=$_POST['inputHorizontalWarning'];
-    $rn=$_POST['inputHorizontalReWarning'];
-    if(strcasecmp($n,$rn)==0 && !empty($n) && !empty($rn)) {
-        $sql = "select * from LMS.user where RollNo='$no'";
-
-        $result = $conn->query($sql);
-        $row = $result->fetch_assoc();
-        $x = $row['Password'];
-
-        //echo"$x";
-        //echo "$sql";
-        if (strcasecmp($x, $c) == 0 && strcasecmp($x,$n)!= 0 && !empty($x) && !empty($c)) {
-            $sql1 = "update LMS.user set Password ='$n' where RollNo='$no'";
-            //echo "$sql1";
-            if ($conn->query($sql1) === TRUE) {
-                //$_SESSION['message']='Password Updated Successfully';
-                //header('location:change_password.php');
-
-                echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Password Updated Successfully' </script>";
-            } else {//echo $conn->error;
-                echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Error! Try again'</script>";
-            }
-        }
-        else{
-            echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Incorrect Current Password' </script>";
-        }
-    }
-    else{
-        echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'New Password and Re-typed Password does not match' </script>";
-    }
-
-}*/
     require ('footer.php');
 }
 else {
