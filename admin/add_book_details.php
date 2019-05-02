@@ -1,6 +1,6 @@
 <?php
 require('dbconn.php');
-//$no=$_POST['id'];
+
 $title=$_POST['title'];
 $author=$_POST['author'];
 $publisher=$_POST['publisher'];
@@ -13,7 +13,7 @@ $no=(int)$row['BookId']+1;
 $sql1="insert into LMS.book (BookId,Title,Publisher,Year,Availability) values ('$no','$title','$publisher','$year','$availability')";
 $sql2="insert into LMS.author values('$no','$author')";
 
-//echo $sql1;
+
 if($conn->query($sql1) === TRUE and $conn->query($sql2) == TRUE){
     $_SESSION['message']='Book Added Successfully';
 }

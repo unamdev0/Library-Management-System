@@ -11,8 +11,8 @@ $availability=$row['Availability'];
 $availability=(string)((int)$availability+(int)1);
 $sql2="Update lms.book set Availability='$availability' where BookId='$id'";
 $sql1="UPDATE LMS.RECORD SET Date_of_Return=curdate(),Dues='$fine' where BookId='$id' and RollNo='$mid'";
-//echo $sql1;
-//echo $sql2;
+
+
 if($conn->query($sql1) == TRUE and $conn->query($sql2)){
     $sql2 = "insert into LMS.notifications (RollNo,Msg) values('$mid','Your book $id has been Returned')";
 

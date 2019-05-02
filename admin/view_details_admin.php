@@ -54,22 +54,6 @@ if ($_SESSION['RollNo']) {
                                         <input type="text" name="phone" id="phone" class="form-control" value=<?php echo $mobno?>>
                                     </div>
                                 </div>
-                                <!--<div class="form row">
-                                    <div class="form-group col-md-6">
-                                        <label class="col-sm-3 form-control-label ">City:</label>
-                                        <input type="text" name="city" id="city" class="form-control" value="City">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label class="col-sm-3 form-control-label ">State:</label>
-                                        <input type="text" name="state" id="state" class="form-control" value="State">
-                                    </div>
-                                </div>
-                                <div class="form row">
-                                    <div class="form-group col-md-12">
-                                        <label class="col-sm-3 form-control-label ">Address:</label>
-                                        <textarea name="address" id="address" class="form-control" value="Address"></textarea>
-                                    </div>
-                                </div>-->
                                 <div><strong class="text-primary small" style="margin-top:20px;" id="incorrect"></STRONG></div>
                                 <div>
                                     <div  class="text-center">
@@ -87,25 +71,6 @@ if ($_SESSION['RollNo']) {
     $m=$_SESSION['message'];
     echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = '$m' </script>";
     $_SESSION['message']='';
-    /*if(isset($_POST['submit']))
-    {
-        $name=$_POST['name'];
-        $email=$_POST['email'];
-        $phone=$_POST['phone'];
-        $city=$_POST['city'];
-        $state=$_POST['state'];
-        $address=$_POST['address'];
-        $sql1="UPDATE LMS.user SET Name='$name', EmailId='$email', MobNo='$phone' WHERE RollNo='$no'";
-
-        if($conn->query($sql1) === TRUE){
-            echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Details Updated' </script>";
-        }
-        else
-        {//echo $conn->error;
-            echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Update failed'</script>";
-        }
-
-    }*/
     require ('footer.php');
     }
     else {

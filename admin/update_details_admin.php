@@ -7,7 +7,7 @@ $city=$_POST['city'];
 $state=$_POST['state'];
 $address=$_POST['address'];
 $sql1="UPDATE LMS.user SET Name='$name', EmailId='$email', MobNo='$phone' WHERE RollNo='admin'";
-//echo $sql1;
+
 if($conn->query($sql1) === TRUE){
     $_SESSION['message']='Details Updated';
     $_SESSION['Name']=$name;

@@ -23,28 +23,6 @@ if ($_SESSION['RollNo']) {
         <section class="no-padding-top">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- Basic Form-->
-                    <!--<div class="col-lg-6">
-                        <div class="block">
-                            <div class="title"><strong class="d-block">Basic Form</strong><span class="d-block">Lorem ipsum dolor sit amet consectetur.</span></div>
-                            <div class="block-body">
-                                <form>
-                                    <div class="form-group">
-                                        <label class="form-control-label">Email</label>
-                                        <input type="email" placeholder="Email Address" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-control-label">Password</label>
-                                        <input type="password" placeholder="Password" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="submit" value="Signin" class="btn btn-primary">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>-->
-                    <!-- Horizontal Form-->
                     <div class="col-lg-12">
                         <div class="block">
                             <div class="title"><strong >Issue Book</strong>

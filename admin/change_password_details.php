@@ -4,7 +4,7 @@ $no=$_SESSION['RollNo'];
 $c=$_POST['inputHorizontalSuccess'];
 $n=$_POST['inputHorizontalWarning'];
 $rn=$_POST['inputHorizontalReWarning'];
-//echo $rn;
+
 if(strcasecmp($n,$rn)==0 && !empty($n) && !empty($rn)) {
     $sql = "select * from LMS.user where RollNo='$no'";
     $result = $conn->query($sql);
@@ -31,7 +31,7 @@ if(strcasecmp($n,$rn)==0 && !empty($n) && !empty($rn)) {
 else{
     $_SESSION['message']= 'New Password and Re-typed Password does not match';
 }
-//echo $_SESSION['message'];
+
 $url="change_password.php";
 header("location:".$url);
 ?>

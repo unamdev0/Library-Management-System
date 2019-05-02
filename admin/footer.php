@@ -1,8 +1,7 @@
 <footer class="footer">
     <div class="footer__block block no-margin-bottom">
         <div class="container-fluid text-center">
-            <!-- Please do not remove the backlink to us unless you support us at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-            <p style="z-index: -1" class="no-margin-bottom">2019 &copy; LIBSYS.Bhuvnesh | Udit | Rahul|Rajat</p>
+            <p style="z-index: -1" class="no-margin-bottom">2019 &copy; LIBSYS   | Udit |    </p>
         </div>
     </div>
 </footer>

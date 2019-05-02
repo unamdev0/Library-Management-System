@@ -92,23 +92,6 @@ if ($_SESSION['RollNo']) {
     $m=$_SESSION['message'];
     echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = '$m' </script>";
     $_SESSION['message']='';
-    /*if(isset($_POST['submit']))
-     {
-         $title=$_POST['title'];
-         $publisher=$_POST['Publisher'];
-         $year=$_POST['Year'];
-         $availability=$_POST['Availability'];
-         $sql1="UPDATE LMS.book SET TItle='$title', Publisher='$publisher', Year='$year',Availability='$availability' WHERE BookId='$no'";
-         echo $sql1;
-         if($conn->query($sql1) === TRUE){
-             echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Details Updated' </script>";
-         }
-         else
-         {//echo $conn->error;
-             echo "<script type='text/javascript'>document.getElementById('incorrect').innerText = 'Update failed'</script>";
-         }
-
-     }*/
     require ('footer.php');
     }
     else {

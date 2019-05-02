@@ -15,7 +15,7 @@
         $_SESSION['message']= 'Error!';
     }
     echo $sql1;
-//echo $_SESSION['message'];
+
 $url="recommendation.php";
 header("location:".$url);
 ?>

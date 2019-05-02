@@ -10,7 +10,7 @@ else
 $email=$_POST['emailid'];
 $mobno=$_POST['mobno'];
 $sql1="UPDATE LMS.user SET Name='$name', EmailId='$email', MobNo='$mobno',status='$status' WHERE RollNo='$n'";
-//echo $sql1;
+
 if($conn->query($sql1) === TRUE){
     $_SESSION['message']='Details Updated';
 }

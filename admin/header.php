@@ -66,23 +66,7 @@
                                 <div class="content" style="overflow: hidden;">   <strong class="d-block"><?php echo $rollno?></strong><span class="d-block"><?php echo $msg?></span><small class="date d-block"><?php echo $date?></small><small class="date d-block"><?php echo $time?></small></div></a>
 
                         <?php } ?>
-                        <!-- <div class="profile"><img src="img/avatar-3.jpg" alt="..." class="img-fluid">
-                       <div class="status online"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Nadia Halsey</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">9:30am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-2.jpg" alt="..." class="img-fluid">
-                       <div class="status away"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Peter Ramsy</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">7:40am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-1.jpg" alt="..." class="img-fluid">
-                       <div class="status busy"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Sam Kaheil</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">6:55am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-5.jpg" alt="..." class="img-fluid">
-                       <div class="status offline"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Sara Wood</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">10:30pm</small></div></a>-->
-                        <a href="messages.php" class="dropdown-item text-center message"> <strong>See All Messages <i class="fa fa-angle-right"></i></strong></a></div>
+                         <a href="messages.php" class="dropdown-item text-center message"> <strong>See All Messages <i class="fa fa-angle-right"></i></strong></a></div>
                 </div>
                 <!-- Log out               -->
                 <div class="list-inline-item logout">                   <a id="logout" href="logout.php" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
@@ -143,19 +127,4 @@
                     <li><a href="return_book.php">Returned Book</a></li>
                 </ul>
             </li>
-            <!--<li><a href="#exampledropdownDropdown6" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Book Swapping</a>
-                <ul id="exampledropdownDropdown6" class="collapse list-unstyled ">
-                    <li><a href="#">View other's Request</a></li>
-                    <li><a href="#">Apply</a></li>
-                    <li><a href="#">Return Book</a></li>
-                </ul>
-            </li>-->
-            <!--<li><a href="login.php"> <i class="icon-logout"></i>Login page </a></li>
-        </ul><span class="heading">Extras</span>
-        <ul class="list-unstyled">
-            <li> <a href="#"> <i class="icon-settings"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-chart"></i>Demo </a></li>
-        </ul>-->
     </nav>
-        <!-- Sidebar Navigation end-->

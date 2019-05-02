@@ -13,7 +13,7 @@
         $_SESSION['message']= 'Invalid Member Id';
     }
     echo $sql1;
-//echo $_SESSION['message'];
+
 $url="compose_message.php";
 header("location:".$url);
 ?>
