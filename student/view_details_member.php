@@ -58,10 +58,6 @@ if ($_SESSION['RollNo']) {
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-3 form-control-label ">Status</label>
-                                        <!--<select name="status" id="status" class="form-control mb-3" >
-                                            <option  value="Inactive">Inactive</option>
-                                            <option  value="Active">Active</option>
-                                        </select>-->
                                         <input readonly type="text" name="status" id="status" class="form-control" value=<?php if ($status =='1') echo 'Active'; else echo 'Inactive'?>>
                                     </div>
                                 </div>

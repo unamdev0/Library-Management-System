@@ -63,24 +63,7 @@
                                 <div class="content" style="overflow: hidden;">  <span class="d-block"><?php echo $msg?></span><small class="date d-block"><?php echo $date?></small><small class="date d-block"><?php echo $time?></small></div></a>
 
                         <?php } ?>
-                        <!-- <div class="profile"><img src="img/avatar-3.jpg" alt="..." class="img-fluid">
-                       <div class="status online"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Nadia Halsey</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">9:30am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-2.jpg" alt="..." class="img-fluid">
-                       <div class="status away"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Peter Ramsy</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">7:40am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-1.jpg" alt="..." class="img-fluid">
-                       <div class="status busy"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Sam Kaheil</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">6:55am</small></div></a><a href="#" class="dropdown-item message d-flex align-items-center">
-                     <div class="profile"><img src="img/avatar-5.jpg" alt="..." class="img-fluid">
-                       <div class="status offline"></div>
-                     </div>
-                     <div class="content">   <strong class="d-block">Sara Wood</strong><span class="d-block">lorem ipsum dolor sit amit</span><small class="date d-block">10:30pm</small></div></a>-->
-                        <!--<a href="notifications.php" class="dropdown-item text-center message"> <strong>See All Notifications <i class="fa fa-angle-right"></i></strong></a>--></div>
-                </div>
+                        </div>
                 <!-- Log out               -->
                 <div class="list-inline-item logout">                   <a id="logout" href="logout.php" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
             </div>
@@ -106,9 +89,6 @@
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
             <li><a href="recommendation.php"> <i class="icon-home"></i>Recommendations</a></li>
-            <!--<li class="active"><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
-            <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts </a></li>
-            <li><a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>-->
             <li><a href="#exampledropdownDropdown1" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>My Profile</a>
                 <ul id="exampledropdownDropdown1" class="collapse  list-unstyled ">
                     <li><a href="change_password.php">Change Password</a></li>
@@ -126,16 +106,8 @@
             <li><a href="#exampledropdownDropdown3" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Books</a>
                 <ul id="exampledropdownDropdown3" class="collapse list-unstyled ">
                     <li><a href="view_books.php">View Books</a></li>
-                    <!--<li><a href="add_book.php">Add Books</a></li>
-                    <li><a href="#">Page</a></li>-->
                 </ul>
             </li>
-            <!--<li><a href="#exampledropdownDropdown4" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Members</a>
-                <ul id="exampledropdownDropdown4" class="collapse list-unstyled ">
-                    <li><a href="view_member.php">View Members</a></li>
-                    <li><a href="#">Page</a></li>
-                </ul>
-            </li>-->
             <li><a href="#exampledropdownDropdown5" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Your Request</a>
                 <ul id="exampledropdownDropdown5" class="collapse list-unstyled ">
                     <li><a href="issue_book_student.php">Requested Book</a></li>
@@ -143,19 +115,5 @@
                     <li><a href="return_book.php">Returned Book</a></li>
                 </ul>
             </li>
-            <!--<li><a href="#exampledropdownDropdown6" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Book Swapping</a>
-                <ul id="exampledropdownDropdown6" class="collapse list-unstyled ">
-                    <li><a href="#">View other's Request</a></li>
-                    <li><a href="#">Apply</a></li>
-                    <<li><a href="#">Return Book</a></li>
-                </ul>
-            </li>-->
-            <!--<li><a href="login.php"> <i class="icon-logout"></i>Login page </a></li>
-        </ul><span class="heading">Extras</span>
-        <ul class="list-unstyled">
-            <li> <a href="#"> <i class="icon-settings"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-chart"></i>Demo </a></li>
-        </ul>-->
+
     </nav>
-        <!-- Sidebar Navigation end-->
