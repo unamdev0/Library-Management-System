@@ -94,7 +94,7 @@ require('dbconn.php');
         </div>
       </div>
       <div class="copyrights text-center">
-          <p>Design by <strong class="text-primary" >Bhuvnesh | Udit |Rahul|Rajat</strong></p>
+          <p>Design by <strong class="text-primary" >| Udit |</strong></p>
         <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
       </div>
     </div>
